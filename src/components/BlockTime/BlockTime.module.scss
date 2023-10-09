@@ -1,0 +1,102 @@
+.container{
+    border-bottom:2px solid #FAED26;
+}
+.mainBlock{
+    // display: flex;
+    // justify-content: space-between;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    padding: 20px;
+    // margin: 20px;
+    position: relative;
+    // border-bottom: 2px solid #FAED26;
+    // border-top: 2px solid #FAED26;
+}
+.iconCon{
+margin-left: 15px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    // border-right: 3px solid #FAED26;
+
+}
+.txt{
+    // border-left: 1px solid #FAED26;
+    height: 100%;
+    color: #fff;
+    // font-weight: 500;
+    font-size: 32px;
+    // font-family: "Lora", serif;
+    text-align: center;
+    // font-size: 32px;
+    // color: #1E3D7F; /* Цвет текста */
+    // text-shadow: 2px 2px 0 #3CCDF4; /* Тень текста */
+  
+}
+.num{
+    font-family: "Stick", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.line{
+    width: 2px;
+    position: absolute;
+    height: 97px;
+    top: -2px;
+    left: 130px;
+    background-color: #FAED26;
+}
+.line2{
+    width: 2px;
+    position: absolute;
+    height: 97px;
+    top: -2px;
+    right: 150px;
+    background-color: #FAED26;
+}
+ /* Класс для плавного появления */
+ .visible {
+     opacity: 1;
+     max-height: 1000px;
+     overflow: hidden;
+     transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease; /* Добавляем transform в анимацию */
+     transform: translateY(0); /* Изначальное состояние - положение по Y на 0 */
+   }
+   /* Начальное состояние второго контейнера (скрыто) */
+   .secondContainer {
+     opacity: 0;
+     max-height: 0;
+     overflow: hidden;
+     transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease; /* Добавляем transform в анимацию */
+     transform: translateY(-20px); /* Изначальное состояние - положение по Y на -20px */
+   }
+.secCon{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #FAED26;
+    // padding: 20px;
+}
+.secBlock{
+    display: flex;
+    gap: 20px;
+}
+.snum{
+    font-size:18px;
+}
+.snum:nth-of-type(odd){
+    color: #F69978;
+}
+.snum:nth-of-type(even){
+    color: #45A7CD;
+}
+.expanded{
+        transform: translateY(100%); /* Изначальное положение, контейнер ниже */
+        transition: transform 0.3s ease; /* Плавный переход */
+      
+}

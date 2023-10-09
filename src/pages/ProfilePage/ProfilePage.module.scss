@@ -1,0 +1,63 @@
+.profile {
+    color: #faed26;
+    padding: 3vw 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    .head {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 20vw 1fr;
+        column-gap: 3vw;
+        .avatar {
+            width: 20vw;
+            height: 20vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            img {
+                width: 100%;
+            }
+        }
+        .about {
+            padding: 1vw;
+            color: #faed26;
+            background-color: #423f46;
+            display: flex;
+            flex-direction: column;
+            .nickName {
+                font-family: Stick;
+                font-size: 4vw;
+                font-weight: 400;
+            }
+            .info {
+                padding-top: 20px;
+            }
+        }
+    }
+
+    .body {
+        display: grid;
+        grid-template-columns: 20vw 1fr;
+        column-gap: 3vw;
+        .aside {
+            background-color: #423f46;
+            width: 20vw;
+            padding: 1vw;
+            h2 {
+                display: flex;
+                column-gap: 20px;
+                flex-wrap: wrap;
+                align-items: center;
+                padding-bottom: 10px;
+                img {
+                    width: 4vw;
+                }
+            }
+        }
+        .content {
+            padding: 1vw;
+            background-color: #423f46;
+        }
+    }
+}

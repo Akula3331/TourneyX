@@ -1,0 +1,29 @@
+.header{
+    background-color: #423F46;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    // position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.headerItem{
+    color: #FAED26;
+    font-size: 24px;
+    font-family: "Stalinist One", cursive;
+    
+}
+.con{
+    position: relative;
+width: 600px;
+height: 400px;
+overflow: hidden;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.bg{
+    position: absolute;
+width: 1000px;
+height: 600px;
+}
