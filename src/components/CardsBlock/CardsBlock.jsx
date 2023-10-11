@@ -17,13 +17,13 @@ export default function CardsBlock() {
             link:'/b'
         },
         {
-            img:'/images/cava.jpg',
+            img:'/images/gava.jpg',
             nick:'Gorbatic',
             txt:'Когда я читаю книгу то книга получает знания',
             link:'/g'
         },
         {
-            img:'/images/gava.jpg',
+            img:'/images/cava.jpg',
             nick:'CFKN',
             txt:'Приятно быть важным,но куда важнее быть приятным',
             link:'/c'
