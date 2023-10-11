@@ -18,15 +18,15 @@ export default function CardsBlock() {
         },
         {
             img:'/images/cava.jpg',
-            nick:'CFKN',
+            nick:'Gorbatic',
             txt:'Когда я читаю книгу то книга получает знания',
-            link:'c'
+            link:'/g'
         },
         {
             img:'/images/gava.jpg',
-            nick:'Gorbatic',
+            nick:'CFKN',
             txt:'Приятно быть важным,но куда важнее быть приятным',
-            link:'/g'
+            link:'/c'
         },
     ]
     return (
