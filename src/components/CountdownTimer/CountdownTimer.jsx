@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import cls from "./CountdownTimer.module.scss";
 
-export default function CountdownTimer({ targetDate }) {
+export default function CountdownTimer({ targetDate,gameName }) {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -51,13 +51,24 @@ export default function CountdownTimer({ targetDate }) {
     <div>
       <div className={cls.con}>
         {showText ? (
-          <p>JKDSNFKJNDJKFNK</p>
+          <div className={cls.conTime}>
+          <div className={cls.txtCon}>
+            <p className={cls.title}>Игра началась: докажите свое мастерство!</p>
+            <p className={cls.txt}>BLUR</p>
+          </div>
+          </div>
         ) : (
-          <div>
+          <div className={cls.conTime}>
+          <p className={cls.title}>
+          Время доказать свои навыки: начало близко!
+          </p>
+          <div className={cls.txtCon}>
           <span className={cls.txt}>{timeLeft.days}</span>:
           <span className={cls.txt}>{timeLeft.hours}</span>:
           <span className={cls.txt}>{timeLeft.minutes}</span>:
           <span className={cls.txt}>{timeLeft.seconds}</span>
+          </div>
+
           </div>
         )}
       

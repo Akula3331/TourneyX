@@ -11,14 +11,12 @@ export default function BlockTime({
     pNum,
     vs,
 }) {
-    const [isExpanded, setIsExpanded] = useState(false);
+    const [isExpanded] = useState(false);
 
     const toggleSecondContainer = () => {
         onToggle();
     };
-    const toggleExpand = () => {
-        setIsExpanded((prevExpanded) => !prevExpanded);
-    };
+
 
     // Создаем анимацию для появления/скрытия дополнительной информации
     const expandAnimation = useSpring({
@@ -38,11 +36,9 @@ export default function BlockTime({
                 onClick={toggleSecondContainer}
             >
                 <div className={cls.iconCon}>
-                    <img src={img} alt="" className={cls.icon} />
+                    <img src={img} alt="icon" className={cls.icon} />
                 </div>
-                <div className={cls.line}></div>
                 <p className={cls.txt}>{dis}</p>
-                <div className={cls.line2}></div>
 
                 <p className={cls.num}>{data}</p>
             </div>
@@ -55,12 +51,12 @@ export default function BlockTime({
                     <div className={cls.secCon}>
                         <div className={cls.secBlock}>
                             <p className={cls.snum}>{pNum[0]}</p>
-                            <img src="/icons/vs.svg" alt="" />
+                            <img className={cls.vs} src="/icons/vs.svg" alt="vs" />
                             <p className={cls.snum}>{pNum[1]}</p>
                         </div>
                         <div className={cls.secBlock}>
                             <p className={cls.snum}>{pNum[2]}</p>
-                            <img src="/icons/vs.svg" alt="" />
+                            <img className={cls.vs} src="/icons/vs.svg" alt="vs" />
                             <p className={cls.snum}>{pNum[3]}</p>
                         </div>
                     </div>

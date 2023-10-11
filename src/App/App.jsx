@@ -1,25 +1,31 @@
 import { Route, Routes } from "react-router";
 import cls from "./App.module.scss";
-import { useState } from "react";
 import MainPage from "../pages/MainPage/MainPage";
-import ProfilePage from "../pages/ProfilePage/ProfilePage";
 import { Link } from "react-router-dom";
+import PagesB from "../pages/PagesB/PagesB";
+import PagesG from "../pages/PagesG/PagesG";
+import PagesC from "../pages/PagesC/PagesC";
+import PagesK from "../pages/PagesK/PagesK";
+import PageInfo from "../pages/PageInfo/PageInfo";
+import ArchivePage from "../pages/ArchivePage/ArchivePage";
+import NewsPage from "../pages/NewsPage/NewsPage";
 
 function App() {
     return (
         <>
-            <header className={cls.header}>
-                <nav className={cls.navbar}>
-                    <Link to="/">Main</Link>
-                    <Link to="/profile">Profile</Link>
-                </nav>
-            </header>
             <div className={cls.App}>
                 <Routes>
+                    <Route path="b" element={<PagesB/>}/>
+                    <Route path="k" element={<PagesK/>}/>
+                    <Route path="g" element={<PagesG/>}/>
+                    <Route path="c" element={<PagesC/>}/>
+                    <Route path="info" element={<PageInfo/>}/>
                     <Route path="/" element={<MainPage />} />
-                    <Route path="/profile" element={<ProfilePage />} />
+                    <Route path="archive" element={<ArchivePage/>}/>
+                    <Route path="/news" element={<NewsPage/>}/>
                 </Routes>
             </div>
+  
         </>
     );
 }
