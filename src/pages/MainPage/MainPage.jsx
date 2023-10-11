@@ -5,7 +5,6 @@ import TourList from "./../../components/TourList/TourList";
 import CountdownTimer from "./../../components/CountdownTimer/CountdownTimer";
 import cls from "./MainPage.module.scss";
 import { Link } from "react-router-dom";
-import Leaderboard from "../../components/Leaderboard/Leaderboard";
 
 export default function MainPage() {
   const [firstDateFromChild, setFirstDateFromChild] = useState(null);
