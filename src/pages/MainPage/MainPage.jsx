@@ -5,6 +5,7 @@ import TourList from "./../../components/TourList/TourList";
 import CountdownTimer from "./../../components/CountdownTimer/CountdownTimer";
 import cls from "./MainPage.module.scss";
 import { Link } from "react-router-dom";
+import Leaderboard from './../../components/Leaderboard/Leaderboard';
 
 export default function MainPage() {
   const [firstDateFromChild, setFirstDateFromChild] = useState(null);
@@ -47,7 +48,11 @@ export default function MainPage() {
       </div>
       <div className={cls.taimer}><CountdownTimer targetDate={targetDate} /></div>
       <TimeCon onFirstDateFromChild={handleFirstDateFromChild} />
+      <div className={cls.tourCon}>
+      <Leaderboard/>
       <TourList />
+      </div>
+    
       <CardsBlock />
       <div className={cls.block}></div>
       

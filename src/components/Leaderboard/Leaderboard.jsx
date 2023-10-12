@@ -29,7 +29,7 @@ const Leaderboard = () => {
 
   return (
     <div className={cls.container}>
-     <h2>Лидер рейтинга</h2>
+     <h2 className={cls.title}>Лидер рейтинга</h2>
       {leader && (
         
         <div className={cls.iconBlock}>
