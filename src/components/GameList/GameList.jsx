@@ -31,7 +31,7 @@ export default function GameList({ playerName }) {
     const fourthPlacePoints = parseInt(game.fourthPlace, 10);
   
     // Вычислите общее количество баллов, давая 3 балла за первое место и 2 балла за второе место
-    const totalPoints = 3 * firstPlacePoints + 2 * secondPlacePoints + 1 * thirdPlacePoints + fourthPlacePoints;
+    const totalPoints = 3 * firstPlacePoints + 2 * secondPlacePoints + 1 * thirdPlacePoints + 0 * fourthPlacePoints;
   
     return totalPoints;
   };
