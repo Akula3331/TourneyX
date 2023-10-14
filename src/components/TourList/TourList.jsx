@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import cls from "./TourList.module.scss";
 import axios from 'axios'
 
-export default function TourList({ icon, name }) {
+export default function TourList() {
   const [players, setPlayers] = useState([]);
 
   useEffect(() => {

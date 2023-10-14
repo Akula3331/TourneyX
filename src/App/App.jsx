@@ -9,6 +9,10 @@ import PagesK from "../pages/PagesK/PagesK";
 import PageInfo from "../pages/PageInfo/PageInfo";
 import ArchivePage from "../pages/ArchivePage/ArchivePage";
 import NewsPage from "../pages/NewsPage/NewsPage";
+import AchievementsCard from "../components/AchievementsCard/AchievementsCard";
+import AchievementsPage from "../pages/AchievementsPage/AchievementsPage";
+import GameRules from "../components/GameRules/GameRules";
+import RulesPages from './../pages/RulesPages/RulesPages';
 
 function App() {
     return (
@@ -23,6 +27,7 @@ function App() {
                     <Route path="/" element={<MainPage />} />
                     <Route path="archive" element={<ArchivePage/>}/>
                     <Route path="/news" element={<NewsPage/>}/>
+                    <Route path="/rule" element={<RulesPages/>}/>
                 </Routes>
             </div>
   

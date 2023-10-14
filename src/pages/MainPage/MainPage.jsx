@@ -28,6 +28,10 @@ export default function MainPage() {
        
       <header id="hed" className={cls.header}>
         <nav className={cls.navbar}>
+        <Link className={cls.link} to="/rule">
+            <img src="/icons/medalicon.svg" alt="icon" />
+            <p className={cls.headerTxt}>Правила</p>
+          </Link>
           <Link className={cls.link} to="/info">
             <img src="/icons/info.svg" alt="icon" />
             <p className={cls.headerTxt}>Инструкция</p>

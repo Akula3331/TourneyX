@@ -1,0 +1,23 @@
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(66, 63, 70, 0.4);
+    font-family: 'Lora' ;
+}
+.gameName{
+    color: #FAED26;
+}
+.gameRules{
+    color: #423F46;
+}
+.btn{
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #FAED26;
+    background-color: #423F46;
+}

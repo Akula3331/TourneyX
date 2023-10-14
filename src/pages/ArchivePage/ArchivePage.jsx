@@ -5,7 +5,7 @@ import Back from "../../components/Back/Back";
 
 export default function ArchivePage() {
   const gamesSeason = [
-    // { name: "Шахмат", date: "2023-10-15", firstPlace: 'betito', secondPlace: 'cfkn', thirdPlace: 'kalamburger', fourthPlace: 'gorbati' },
+    { name: "Шахмат", date: "2023-10-12", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
    
   ];
 
