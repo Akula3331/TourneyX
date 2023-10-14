@@ -54,7 +54,7 @@ export default function CountdownTimer({ targetDate,gameName }) {
           <div className={cls.conTime}>
           <div className={cls.txtCon}>
             <p className={cls.title}>Игра началась: докажите свое мастерство!</p>
-            <p className={cls.txt}>BLUR</p>
+            <p className={cls.txt}>Uno</p>
           </div>
           </div>
         ) : (
