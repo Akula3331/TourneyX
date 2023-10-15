@@ -4,9 +4,13 @@ import BlockTime from "../BlockTime/BlockTime";
 
 export default function TimeCon({ onFirstDateFromChild }) {
   const initialData = [
- 
-    { img: "/icons/dice.svg", dis: "Шашки", data: "16.10.2023",
+    { img: "/icons/timeIcon/dice.svg", dis: "Шашки", data: "16.10.2023",
     pNum:['Gorbatic', 'Betito','CFKN','Kalamburger'] },
+    { img: "/icons/timeIcon/cards.svg", dis: "Дурак", data: "18.10.2023"},
+    { img: "/icons/timeIcon/gamecontroller.svg", dis: "Ping Pong", data: "20.10.2023",
+    pNum:['Gorbatic','CFKN','Betito','Kalamburger'] },
+    { img: "/icons/timeIcon/cards.svg", dis: "Uno", data: "22.10.2023"},
+    { img: "/icons/timeIcon/puzzle.svg", dis: "Blocksudoku", data: "24.10.2023"},
   ];
 
   // 'Gorbatic', 'Betito','CFKN','Kalamburger'
@@ -15,10 +19,11 @@ export default function TimeCon({ onFirstDateFromChild }) {
     initialData.length > 0 ? initialData[0].data : null
   );
 
-  // const targetDate = null;
   useEffect(() => {
-    onFirstDateFromChild(firstData);
+    // Передаем как дату, так и название игры в функцию onFirstDateFromChild
+    onFirstDateFromChild(firstData, initialData[0].dis);
   }, [firstData, onFirstDateFromChild]);
+
   const [containerStates, setContainerStates] = useState(
     initialData.map(() => false) // Изначально все контейнеры закрыты
   );

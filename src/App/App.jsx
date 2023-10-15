@@ -28,6 +28,7 @@ function App() {
                     <Route path="archive" element={<ArchivePage/>}/>
                     <Route path="/news" element={<NewsPage/>}/>
                     <Route path="/rule" element={<RulesPages/>}/>
+                    <Route path="/achiv" element={<AchievementsPage/>}/>
                 </Routes>
             </div>
   
