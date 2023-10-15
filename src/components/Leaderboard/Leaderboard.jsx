@@ -3,24 +3,20 @@ import axios from "axios";
 import cls from './Leaderboard.module.scss';
 
 const Leaderboard = () => {
-  const [leader, setLeader] = useState(null);
+  const [leaders, setLeaders] = useState([]);
 
   useEffect(() => {
     axios.get("/players.json") // Замените путь на ваш JSON-файл
       .then((response) => {
         const playersData = response.data.players;
 
-        // Найдем игрока с наибольшим количеством баллов (point + megapoint)
-        const leader = playersData.reduce((currentLeader, player) => {
-          const playerTotalPoints = player.points + player.megapoint;
-          const currentLeaderTotalPoints = currentLeader
-            ? currentLeader.points + currentLeader.megapoint
-            : 0;
+        // Найдем максимальное количество баллов (point + megapoint)
+        const maxPoints = Math.max(...playersData.map(player => player.points + player.megapoint));
 
-          return playerTotalPoints > currentLeaderTotalPoints ? player : currentLeader;
-        }, null);
+        // Найдем всех игроков с максимальным количеством баллов
+        const maxPointsPlayers = playersData.filter(player => (player.points + player.megapoint) === maxPoints);
 
-        setLeader(leader);
+        setLeaders(maxPointsPlayers);
       })
       .catch((error) => {
         console.error("Ошибка при загрузке данных:", error);
@@ -29,15 +25,16 @@ const Leaderboard = () => {
 
   return (
     <div className={cls.container}>
-     <h2 className={cls.title}>Лидер рейтинга</h2>
-      {leader && (
-        
+      <h2 className={cls.title}>Лидер рейтинга</h2>
+      {leaders.length > 0 && (
         <div className={cls.iconBlock}>
-             
-            <img className={cls.icon} src="/icons/winnercup.svg" alt="" />
-          <p className={cls.txt}>{leader.name}</p>
-          <img className={cls.icon} src="/icons/winnercup.svg" alt="" />
-
+          {leaders.map((leader, index) => (
+            <div key={index} className={cls.iconCon}>
+              <img className={cls.icon} src="/icons/winnercup.svg" alt="" />
+              <p className={cls.txt}>{leader.name}</p>
+              <img className={cls.icon} src="/icons/winnercup.svg" alt="" />
+            </div>
+          ))}
         </div>
       )}
     </div>

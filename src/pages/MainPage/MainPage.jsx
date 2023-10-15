@@ -5,7 +5,7 @@ import TourList from "./../../components/TourList/TourList";
 import CountdownTimer from "./../../components/CountdownTimer/CountdownTimer";
 import cls from "./MainPage.module.scss";
 import { Link } from "react-router-dom";
-import Leaderboard from './../../components/Leaderboard/Leaderboard';
+import Leaderboard from "./../../components/Leaderboard/Leaderboard";
 
 export default function MainPage() {
   const [firstDateFromChild, setFirstDateFromChild] = useState(null);
@@ -25,10 +25,9 @@ export default function MainPage() {
 
   return (
     <div className={cls.container}>
-       
       <header id="hed" className={cls.header}>
         <nav className={cls.navbar}>
-        <Link className={cls.link} to="/rule">
+          <Link className={cls.link} to="/rule">
             <img src="/icons/medalicon.svg" alt="icon" />
             <p className={cls.headerTxt}>Правила</p>
           </Link>
@@ -36,30 +35,30 @@ export default function MainPage() {
             <img src="/icons/info.svg" alt="icon" />
             <p className={cls.headerTxt}>Инструкция</p>
           </Link>
-          <Link className={cls.link}  to="/archive">
+          <Link className={cls.link} to="/archive">
             <img src="/icons/archive.svg" alt="icon" />
             <p className={cls.headerTxt}>Архив игр</p>
           </Link>
-          <Link className={cls.link}  to="/news">
+          <Link className={cls.link} to="/news">
             <img src="/icons/news.svg" alt="icon" />
             <p className={cls.headerTxt}>Новости</p>
           </Link>
         </nav>
       </header>
       <div className={cls.main}>
-        <p className={cls.mainTxt}>Добро пожаловать на сайт с играми и турнирами!</p>
-        <p className={cls.mainTxt}>Читайте нашу инструкцию, чтобы узнать, как начать играть и выигрывать!</p>
+        <CountdownTimer targetDate={new Date("2023-11-14T00:00:00")} text='Отсчет до глобального турнира'/>
       </div>
-      <div className={cls.taimer}><CountdownTimer targetDate={targetDate} /></div>
+      <div className={cls.taimer}>
+        <CountdownTimer targetDate={targetDate} text='Время доказать свои навыки: начало близко!' />
+      </div>
       <TimeCon onFirstDateFromChild={handleFirstDateFromChild} />
       <div className={cls.tourCon}>
-      <Leaderboard/>
-      <TourList />
+        <Leaderboard />
+        <TourList />
       </div>
-    
+
       <CardsBlock />
       <div className={cls.block}></div>
-      
     </div>
   );
 }
