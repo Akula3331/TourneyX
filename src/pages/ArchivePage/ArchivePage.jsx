@@ -6,6 +6,7 @@ import Back from "../../components/Back/Back";
 export default function ArchivePage() {
   const gamesSeason = [
     { name: "Шахмат", date: "2023-10-12", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
+    { name: "Дурак", date: "2023-10-14", firstPlace: 'Gorbatic', secondPlace: 'Betito', thirdPlace: 'CFKN', fourthPlace: 'Kalamburger' },
    
   ];
 
@@ -93,7 +94,6 @@ export default function ArchivePage() {
           За сезон
         </button>
       </div>
-        <p className={cls.tt}>Игр еще не сыграно</p>
       {getGamesToDisplay().map((game, index) => (
         <SeasonGamesList
           key={index}

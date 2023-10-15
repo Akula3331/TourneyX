@@ -18,7 +18,7 @@ export default function MainPage() {
   if (firstDateFromChild) {
     const dateParts = firstDateFromChild.split(".");
     if (dateParts.length === 3) {
-      const formattedDate = `${dateParts[2]}-${dateParts[1]}-${dateParts[0]}T00:00:00`;
+      const formattedDate = `${dateParts[2]}-${dateParts[1]}-${dateParts[0]}T20:30:00`;
       targetDate = new Date(formattedDate);
     }
   }
