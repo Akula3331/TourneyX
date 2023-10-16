@@ -7,6 +7,7 @@ export default function ArchivePage() {
   const gamesSeason = [
     { name: "Шахмат", date: "2023-10-12", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
     { name: "Дурак", date: "2023-10-14", firstPlace: 'Gorbatic', secondPlace: 'Betito', thirdPlace: 'CFKN', fourthPlace: 'Kalamburger' },
+    { name: "Шашки", date: "2023-10-16", firstPlace: 'Betito', secondPlace: 'CFKN', thirdPlace: 'Kalamburger', fourthPlace: 'Gorbatic' },
    
   ];
 
