@@ -19,7 +19,7 @@ function App() {
     return (
         <>
             <div className={cls.App}>
-                {/* <Routes>
+                <Routes>
                     <Route path="b" element={<PagesB/>}/>
                     <Route path="k" element={<PagesK/>}/>
                     <Route path="g" element={<PagesG/>}/>
@@ -30,9 +30,8 @@ function App() {
                     <Route path="/news" element={<NewsPage/>}/>
                     <Route path="/rule" element={<RulesPages/>}/>
                     <Route path="/achiv" element={<AchievementsPage/>}/>
-                </Routes> */}
+                </Routes>
             </div>
-                <Achievements/>
         </>
     );
 }
