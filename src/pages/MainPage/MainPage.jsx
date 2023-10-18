@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import TimeCon from "./../../components/TimeCon/TimeCon";
-import CardsBlock from "./../../components/CardsBlock/CardsBlock";
-import TourList from "./../../components/TourList/TourList";
-import CountdownTimer from "./../../components/CountdownTimer/CountdownTimer";
 import cls from "./MainPage.module.scss";
+import CardsBlock from './../../components/CardsBlock/CardsBlock';
 import { Link } from "react-router-dom";
-import Leaderboard from "./../../components/Leaderboard/Leaderboard";
+import TourList from './../../components/TourList/TourList';
+import Leaderboard from './../../components/Leaderboard/Leaderboard';
+import TimeCon from './../../components/TimeCon/TimeCon';
+import CountdownTimer from './../../components/CountdownTimer/CountdownTimer';
 
 export default function MainPage() {
   const [firstDateFromChild, setFirstDateFromChild] = useState(null);
@@ -15,7 +15,7 @@ export default function MainPage() {
     // Добавьте название игры в состояние или передайте его другим компонентам
     setGameName(gameName);
   };
-  console.log(gameName);
+  // console.log(gameName);
   let targetDate = null; // Изначально установите targetDate как null
 
   if (firstDateFromChild) {
