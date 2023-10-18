@@ -13,12 +13,13 @@ import AchievementsCard from "../components/AchievementsCard/AchievementsCard";
 import AchievementsPage from "../pages/AchievementsPage/AchievementsPage";
 import GameRules from "../components/GameRules/GameRules";
 import RulesPages from './../pages/RulesPages/RulesPages';
+import Achievements from "../components/Achievements/Achievements";
 
 function App() {
     return (
         <>
             <div className={cls.App}>
-                <Routes>
+                {/* <Routes>
                     <Route path="b" element={<PagesB/>}/>
                     <Route path="k" element={<PagesK/>}/>
                     <Route path="g" element={<PagesG/>}/>
@@ -29,9 +30,9 @@ function App() {
                     <Route path="/news" element={<NewsPage/>}/>
                     <Route path="/rule" element={<RulesPages/>}/>
                     <Route path="/achiv" element={<AchievementsPage/>}/>
-                </Routes>
+                </Routes> */}
             </div>
-  
+                <Achievements/>
         </>
     );
 }
