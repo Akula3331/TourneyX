@@ -17,7 +17,7 @@
           { "name": "Бойцовская арена", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Бильярд", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Крестики-нолики", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Uno", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Uno", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
           { "name": "Тетрис", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Секретная игра", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Домино", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -29,7 +29,7 @@
       },
       {
         "name": "Betito",
-        "points":7,
+        "points":10,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -44,7 +44,7 @@
           { "name": "Бойцовская арена", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Бильярд", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Крестики-нолики", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Uno", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Uno", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Тетрис", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Секретная игра", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Домино", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -56,7 +56,7 @@
       },
       {
         "name": "Gorbatic",
-        "points":5,
+        "points":7,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -71,7 +71,7 @@
           { "name": "Бойцовская арена", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Бильярд", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Крестики-нолики", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Uno", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Uno", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Тетрис", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Секретная игра", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Домино", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -83,7 +83,7 @@
       },
       {
         "name": "CFKN",
-        "points":5 ,
+        "points":6 ,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -98,7 +98,7 @@
           { "name": "Бойцовская арена", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Бильярд", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Крестики-нолики", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Uno", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Uno", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Тетрис", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Секретная игра", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Домино", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
