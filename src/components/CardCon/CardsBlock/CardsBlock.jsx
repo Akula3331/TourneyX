@@ -1,6 +1,6 @@
 import React from "react";
 import cls from "./CardsBlock.module.scss";
-import Card from "../Card/Card";
+import ProfileCard from "../ProfileCard/ProfileCard";
 
 export default function CardsBlock() {
     const cardData = [
@@ -32,7 +32,7 @@ export default function CardsBlock() {
     return (
         <div className={cls.cards}>
             {cardData.map((item,index) => (
-                <Card
+                <ProfileCard
                 key={index}
                 img={item.img}
                 nick={item.nick}

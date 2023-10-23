@@ -11,6 +11,7 @@ import PagesC from './../pages/PagesC/PagesC';
 import PagesG from './../pages/PagesG/PagesG';
 import PagesK from './../pages/PagesK/PagesK';
 import PagesB from './../pages/PagesB/PagesB';
+import CardGame from "../components/CardCon/CardGame/CardGame";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                     <Route path="/achiv" element={<AchievementsPage/>}/>
                 </Routes>
             </div>
+            {/* <CardGame/> */}
         </>
     );
 }

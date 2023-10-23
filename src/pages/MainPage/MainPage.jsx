@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import cls from "./MainPage.module.scss";
-import CardsBlock from './../../components/CardsBlock/CardsBlock';
 import { Link } from "react-router-dom";
 import TourList from './../../components/TourList/TourList';
 import Leaderboard from './../../components/Leaderboard/Leaderboard';
 import TimeCon from './../../components/TimeCon/TimeCon';
 import CountdownTimer from './../../components/CountdownTimer/CountdownTimer';
+import CardsBlock from "../../components/CardCon/CardsBlock/CardsBlock";
 
 export default function MainPage() {
   const [firstDateFromChild, setFirstDateFromChild] = useState(null);
@@ -66,7 +66,7 @@ export default function MainPage() {
       <Link className={cls.dostCon} to="/achiv">
         <img className={cls.dostImg} src="/images/dost.jpg" alt="" />
       </Link>
-      <CardsBlock />
+      <CardsBlock  />
       <div className={cls.block}></div>
     </div>
   );

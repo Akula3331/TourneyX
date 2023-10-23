@@ -10,6 +10,7 @@ export default function ArchivePage() {
     { name: "Шашки", date: "2023-10-16", firstPlace: 'Betito', secondPlace: 'CFKN', thirdPlace: 'Kalamburger', fourthPlace: 'Gorbatic' },
     { name: "Дурак", date: "2023-10-18", firstPlace: 'Kalamburger', secondPlace: 'CFKN', thirdPlace: 'Gorbatic', fourthPlace: 'Betito' },
     { name: "Uno", date: "2023-10-20", firstPlace: 'Betito', secondPlace: 'Gorbatic', thirdPlace: 'CFKN', fourthPlace: 'Kalamburger' },
+    { name: "Ping Pong", date: "2023-10-23", firstPlace: 'Kalamburger', secondPlace: 'CFKN', thirdPlace: 'Gorbatic', fourthPlace: 'Betito' },
    
   ];
 

@@ -1,8 +1,8 @@
 import React from 'react'
-import cls from './Card.module.scss'
+import cls from './ProfileCard.module.scss'
 import { Link } from 'react-router-dom';
 
-export default function Card({ img, nick, txt,link }) {
+export default function ProfileCard({ img, nick, txt,link }) {
   return (
     <div>
       <Link className={cls.link} to={link}>

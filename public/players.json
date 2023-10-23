@@ -2,7 +2,7 @@
     "players": [
       {
         "name": "Kalamburger",
-        "points":7,
+        "points":10,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -10,7 +10,7 @@
           { "name": "Blur", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Дурак", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
           { "name": "Монополия", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Ping Pong", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Ping Pong", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Покер", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Викторина", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Bottle Flip", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -37,7 +37,7 @@
           { "name": "Blur", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Дурак", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 1 },
           { "name": "Монополия", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Ping Pong", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Ping Pong", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
           { "name": "Покер", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Викторина", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Bottle Flip", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -56,7 +56,7 @@
       },
       {
         "name": "Gorbatic",
-        "points":7,
+        "points":8,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -64,7 +64,7 @@
           { "name": "Blur", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Дурак", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Монополия", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Ping Pong", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Ping Pong", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Покер", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Викторина", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Bottle Flip", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -83,7 +83,7 @@
       },
       {
         "name": "CFKN",
-        "points":6 ,
+        "points":8 ,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -91,7 +91,7 @@
           { "name": "Blur", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Дурак", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Монополия", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Ping Pong", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Ping Pong", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Покер", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
           { "name": "Викторина", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Bottle Flip", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },

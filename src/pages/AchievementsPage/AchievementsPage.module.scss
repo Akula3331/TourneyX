@@ -1,19 +1,18 @@
 .container{
     background: url('../../../public/images/bg4.jpg') ;
-    height: 100vh;
+    height: auto;
     display: flex;
     gap: 20px;
     padding: 20px 0;
     align-items: center;
-    // justify-content: center;
+    // justify-content: center; 
     flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .con{
-    // max-width: 1280px;
-    // margin: 0 auto;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
