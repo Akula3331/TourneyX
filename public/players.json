@@ -2,7 +2,7 @@
     "players": [
       {
         "name": "Kalamburger",
-        "points":10,
+        "points":13,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -24,12 +24,12 @@
           { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Морской Бой", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
+          { "name": "Blocksudoku", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
         ]
       },
       {
         "name": "Betito",
-        "points":10,
+        "points":12,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -51,12 +51,12 @@
           { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Морской Бой", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
+          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 }
         ]
       },
       {
         "name": "Gorbatic",
-        "points":8,
+        "points":9,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -78,7 +78,7 @@
           { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Морской Бой", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
+          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 }
         ]
       },
       {
@@ -105,7 +105,7 @@
           { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Морской Бой", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
+          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 }
         ]
       }
     ]
