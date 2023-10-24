@@ -53,13 +53,15 @@
     border-radius: 5px;
     padding: 15px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-weight: bold;
+    gap: 50px;
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    opacity: 0; // Изначально задняя сторона скрыта
+    opacity: 0;
     transition: opacity 10s;
   }
 

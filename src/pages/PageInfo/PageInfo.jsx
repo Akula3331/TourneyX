@@ -106,9 +106,9 @@ export default function PageInfo() {
         <p className={cls.item}>За 3-е место в мини-игре: 1 балл</p>
         <p className={cls.item}>За 4-е место в мини-игре: 0 баллов</p>
         <p className={cls.item}>За 1-е место в глобальном турнире: 9 баллов</p>
-        <p className={cls.item}>За 2-е место в глобальном турнире: 8 балла</p>
-        <p className={cls.item}>За 3-е место в глобальном турнире: 7 балла</p>
-        <p className={cls.item}>За 4-е место в глобальном турнире: 6 балл</p>
+        <p className={cls.item}>За 2-е место в глобальном турнире: 7 балла</p>
+        <p className={cls.item}>За 3-е место в глобальном турнире: 5 балла</p>
+        <p className={cls.item}>За 4-е место в глобальном турнире: 3 балл</p>
 
         <p className={cls.subtitle}>Приятной игры и удачи в соревнованиях!</p>
       </div>
