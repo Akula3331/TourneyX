@@ -11,7 +11,7 @@ import PagesC from './../pages/PagesC/PagesC';
 import PagesG from './../pages/PagesG/PagesG';
 import PagesK from './../pages/PagesK/PagesK';
 import PagesB from './../pages/PagesB/PagesB';
-import CardGame from "../components/CardCon/CardGame/CardGame";
+import BoxPage from './../pages/BoxPage/BoxPage';
 
 function App() {
     return (
@@ -28,9 +28,9 @@ function App() {
                     <Route path="/news" element={<NewsPage/>}/>
                     <Route path="/rule" element={<RulesPages/>}/>
                     <Route path="/achiv" element={<AchievementsPage/>}/>
+                    <Route path="/box" element={<BoxPage/>}/>
                 </Routes>
             </div>
-            {/* <CardGame/> */}
         </>
     );
 }

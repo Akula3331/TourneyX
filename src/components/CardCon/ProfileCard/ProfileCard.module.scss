@@ -68,8 +68,7 @@
     position: relative;
     width: 4px;
     height: 200px;
-    transform-origin: center top; /* Ось вращения в верхней части маятника */
-    animation: swingPendulum 2s linear infinite alternate; /* Повторяющаяся анимация маятника */
+   
   }
   .link{
     text-decoration: none;
@@ -82,12 +81,59 @@
     transform-origin: center top;
   }
   
-  @keyframes swingPendulum {
+  .pendulum1 {
+    transform-origin: center top;
+    animation: swingPendulum1 2s linear infinite alternate;
+  }
+  
+  .pendulum2 {
+    transform-origin: center top;
+    animation: swingPendulum2 2s linear infinite alternate;
+  }
+  
+  .pendulum3 {
+    transform-origin: center top;
+    animation: swingPendulum3 2s linear infinite alternate;
+  }
+  
+  .pendulum4 {
+    transform-origin: center top;
+    animation: swingPendulum4 2s linear infinite alternate;
+  }
+  
+  @keyframes swingPendulum1 {
     0% {
-      transform: rotate(10deg);
+      transform: rotate(-20deg);
     }
     100% {
-      transform: rotate(-10deg);
+      transform: rotate(20deg);
+    }
+  }
+  
+  @keyframes swingPendulum2 {
+    0% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(5deg);
+    }
+  }
+  
+  @keyframes swingPendulum3 {
+    0% {
+      transform: rotate(30deg);
+    }
+    100% {
+      transform: rotate(-30deg);
+    }
+  }
+  
+  @keyframes swingPendulum4 {
+    0% {
+      transform: rotate(45deg);
+    }
+    100% {
+      transform: rotate(-45deg);
     }
   }
   

@@ -8,27 +8,32 @@ export default function CardsBlock() {
             img:'/images/kava.jpg',
             nick:'Kalamburger',
             txt:'Вильям Шекспир: "Весь мир – театр, а люди в нем актеры"',
-            link:'/k'
+            link:'/k',
+            anim:'1'
         },
         {
             img:'/images/bava.jpg',
             nick:'Betito',
             txt:'Время – это то, что у нас всегда мало',
-            link:'/b'
+            link:'/b',
+            anim:'2'
         },
         {
             img:'/images/gava.jpg',
             nick:'Gorbatic',
             txt:'Когда я читаю книгу то книга получает знания',
-            link:'/g'
+            link:'/g',
+            anim:'3'
         },
         {
             img:'/images/cava.jpg',
             nick:'CFKN',
             txt:'Приятно быть важным,но куда важнее быть приятным',
-            link:'/c'
+            link:'/c',
+            anim:'4'
         },
     ]
+
     return (
         <div className={cls.cards}>
             {cardData.map((item,index) => (
@@ -38,6 +43,7 @@ export default function CardsBlock() {
                 nick={item.nick}
                 txt={item.txt}
                 link={item.link}
+                pendulumAnimation={item.anim}
                 />
             ))}
         </div>

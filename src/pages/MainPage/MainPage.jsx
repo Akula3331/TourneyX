@@ -6,6 +6,7 @@ import Leaderboard from './../../components/Leaderboard/Leaderboard';
 import TimeCon from './../../components/TimeCon/TimeCon';
 import CountdownTimer from './../../components/CountdownTimer/CountdownTimer';
 import CardsBlock from "../../components/CardCon/CardsBlock/CardsBlock";
+import BoxPage from "../BoxPage/BoxPage";
 
 export default function MainPage() {
   const [firstDateFromChild, setFirstDateFromChild] = useState(null);
@@ -49,8 +50,7 @@ export default function MainPage() {
         </nav>
       </header>
       <div className={cls.newsItem}>
-      <p>Был добавлен новый ивент</p>
-      <p>Информация о нем в Инструкции</p>
+      <p>Чекните новое обновление</p>
       </div>
       <div className={cls.main}>
         <CountdownTimer targetDate={new Date("2023-11-14T00:00:00")} text='Отсчет до глобального турнира'/>
@@ -64,7 +64,12 @@ export default function MainPage() {
         <TourList />
       </div>
       <Link className={cls.dostCon} to="/achiv">
+      <h1 className={cls.bTitle}>Достижения</h1>
         <img className={cls.dostImg} src="/images/dost.jpg" alt="" />
+      </Link>
+      <Link className={cls.dostCon} to="/box">
+        <h1 className={cls.bTitle}>Крути карточку</h1>
+        <img className={cls.boxImg} src="/images/boxCon.svg" alt="" />
       </Link>
       <CardsBlock  />
       <div className={cls.block}></div>

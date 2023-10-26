@@ -1,0 +1,198 @@
+$common-color: #cccccc;
+$rare-color: #1e90ff;
+$epic-color: #9400d3;
+$legendary-color: #ffa500;
+.selectedCard {
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  border-radius: 5px;
+  border: 5px solid #1e90ff; // Цвет границы по умолчанию
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  background-color: #ffffff;
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-top: 75px solid #1e90ff; // Цвет треугольника по умолчанию
+    border-right: 75px solid transparent;
+  }
+
+  .txtCon {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    background-color: #1e90ff; // Цвет фона по умолчанию
+  }
+
+  .rectangle {
+    position: absolute;
+    right: 250px;
+    bottom: 0;
+    border-bottom: 50px solid #1e90ff; // Цвет полоски по умолчанию
+    border-left: 40px solid transparent;
+    height: 0;
+    width: 40px;
+  }
+
+  .cardImg {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 40px;
+  }
+}
+.name {
+  font-family: "Electrolize", sans-serif;
+  font-size: 24px;
+}
+.random-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  .card-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: url("../../../../public/images/boxarena.jpg");
+    background-color: #f0f0f0;
+    // background: linear-gradient(
+    //   45deg,
+    //   #3498db,
+    //   #103346,
+    //   #d35400,
+    //   #051620,
+    //   #030c12,
+    //   #417593,
+    //   #16a085,
+    //   #9400d3,
+    //   #02121a,
+    //   #8e44ad,
+    //   #27ae60,
+    //   #f39c12,
+    //   #c0392b,
+    //   #2980b9,
+    //   #d35400,
+    //   #16a085,
+    //   #34495e
+    // );
+    // background-size: 1200% 1200%; /* Здесь размер градиента увеличен, чтобы вместить 15 цветов */
+    // animation: gradient 20s linear infinite;
+    .selected-card {
+      text-align: center;
+      background-color: #423f46;
+      border: 2px solid #00ff00;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 20px;
+      transition: opacity 0.5s;
+
+      p {
+        margin: 5px;
+      }
+
+      &.info-visible {
+        opacity: 1;
+      }
+
+      &.info-hidden {
+        opacity: 0;
+      }
+    }
+
+    .btn {
+      background-color: #00f;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 36px;
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.fadeIn {
+  font-size: 26px;
+  font-family: "Electrolize", sans-serif;
+}
+
+.cardTitle {
+  color: #fff;
+  font-size: 24px;
+}
+.cardBgImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+@media screen and (max-width: 700px) {
+  .random-container {
+    .card-container {
+      padding: 50px 30px;
+      .btn {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .selectedCard {
+    width: 200px;
+    height: 200px;
+
+    .rectangle {
+      right: 120px;
+      border-bottom: 30px solid #1e90ff; // Цвет полоски по умолчанию
+      border-left: 20px solid transparent;
+      width: 20px;
+    }
+    .triangle {
+      border-top: 55px solid #1e90ff; // Цвет треугольника по умолчанию
+      border-right: 55px solid transparent;
+    }
+    .txtCon {
+      width: 120px;
+      height: 30px;
+    }
+    .cardImg {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .cardTitle {
+    font-size: 12px;
+  }
+}

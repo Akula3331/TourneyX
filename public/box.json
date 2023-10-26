@@ -1,0 +1,341 @@
+{
+  "cards": [
+    {
+      "title": "Nexus",
+      "icon": "/game/iconGame/tehno.svg",
+      "image": "/game/person/nexus.jpg",
+      "description": "Робот-воин, созданный в лаборатории научного института. Он был спроектирован для защиты исследователей и их исследований в опасных и неизведанных территориях. Nexus долгое время выполнял функции безопасности в лаборатории, но его потенциал как воина был раскрыт, когда он столкнулся с внешней угрозой. Теперь он предан защите своих создателей и исследователей от опасностей вне лаборатории.",
+      "characteristics": {
+        "health": 8,
+        "defense": 3,
+        "damage": 4,
+        "move": 2,
+        "range": "Ближняя"
+      },
+      "rarity": "common"
+    },
+    {
+      "title": "Aurin",
+      "icon": "/game/iconGame/sush.svg",
+      "image": "/game/person/aurin.jpg",
+      "description": "Aurin - это древний Феникс, символ воскрешения и возрождения. Он родился из огненного яйца и обрел уникальные способности, связанные с огнем и жизненной силой. Веками Aurin блуждал по миру, уча утраченным знаниям и защищая мир от зла. Его периодические смерти сопровождаются воскрешением из пепла, что делает его неуязвимым перед временем.",
+      "characteristics": {
+        "health": 20,
+        "defense": 10,
+        "damage": 20,
+        "move": 4,
+        "range": "Дальная"
+      },
+      "rarity": "legendary"
+    },
+    {
+      "title": "Arno",
+      "icon": "/game/iconGame/history.svg",
+      "image": "/game/person/arno.jpg",
+      "description": "Arno – редкий ассасин, мастер скрытности и убийства. Его урон и защита на среднем уровне, и его здоровье скромно. Arno – профессиональный убийца, готовый выполнить свою миссию в тени и исчезнуть, прежде чем враги поймут, что произошло.",
+      "characteristics": {
+        "health": 11,
+        "defense": 7,
+        "damage": 5,
+        "move": 4,
+        "range": "Ближняя"
+      },
+      "rarity": "rare"
+    },
+    {
+      "title": "Oliver Blackwood",
+      "icon": "/game/iconGame/history.svg",
+      "image": "/game/person/blackwood.jpg",
+      "description": "Oliver Blackwood – эпический пират, известный своими злодейскими манерами и непредсказуемыми действиями. Его урон и защита на высоком уровне, и его здоровье обеспечивает ему долгую жизнь в мире пиратства. Oliver Blackwood – легенда на морских просторах, который может разрушать корабли врагов и обманывать всех, включая самого себя.",
+      "characteristics": {
+        "health": 30,
+        "defense": 6,
+        "damage": 7,
+        "move": 3,
+        "range": "Средняя"
+      },
+      "rarity": "epic"
+    },
+    {
+      "title": "Rancher Dave",
+      "icon": "/game/iconGame/history.svg",
+      "image": "/game/person/dave.jpg",
+      "description": "Rancher Dave – эпический кавбой с непревзойденным стилем и выдающимися навыками в стрельбе. Его урон и защита на высоком уровне, и его здоровье обеспечивает ему долгую жизнь в диком западе. Rancher Dave – владелец самых прекрасных пастбищ и скота в округе, и он всегда готов защищать свой статус и свою землю от нарушителей с пафосом и уверенностью.",
+      "characteristics": {
+        "health": 10,
+        "defense": 2,
+        "damage": 10,
+        "move": 2,
+        "range": "Средняя"
+      },
+      "rarity": "epic"
+    },
+    {
+      "title": "Wireblade",
+      "icon": "/game/iconGame/history.svg",
+      "image": "/game/person/wireblade.jpg",
+      "description": "Wireblade – обычный кибер гладиатор, вооруженный острыми клинками и технологическими устройствами. Его урон и защита на среднем уровне, и его здоровье скромно. Wireblade сражается в аренах будущего, используя передовую технику и смекалку, чтобы преодолеть своих соперников и добиться победы.",
+      "characteristics": {
+        "health": 10,
+        "defense": 1,
+        "damage": 5,
+        "move": 2,
+        "range": "Ближняя"
+      },
+      "rarity": "common"
+    },
+    {
+      "title": "Galadriel",
+      "icon": "/game/iconGame/magic.svg",
+      "image": "/game/person/galadriel.jpg",
+      "description": "Galadriel – легендарный паладин, известный своей непоколебимой силой и преданностью добру. Его урон и защита наивысшие в мире, и его здоровье невероятно высоко. Он всегда готов встать на защиту мира и бороться с злом, принося справедливость и покой своим союзникам.",
+      "characteristics": {
+        "health": 30,
+        "defense": 15,
+        "damage": 13,
+        "move": 3,
+        "range": "Средняя"
+      },
+      "rarity": "legendary"
+    },
+    {
+      "title": "Molniyar",
+      "icon": "/game/iconGame/sush.svg",
+      "image": "/game/person/molniyar.jpg",
+      "description": "Molniyar - могучий и силач, который призван природой. Он родился во время яркой молнии, что придало ему способность контролировать мощь бури. Он служит защитником природы и воплощением стихии.",
+      "characteristics": {
+        "health": 20,
+        "defense": 10,
+        "damage": 4,
+        "move": 4,
+        "range": "Средняя"
+      },
+      "rarity": "rare"
+    },
+    {
+      "title": "Alfred",
+      "icon": "/game/iconGame/sush.svg",
+      "image": "/game/person/alfred.jpg",
+      "description": "Alfred – обычный пингвин с черно-белой окраской. Его сила и ловкость скромны, а его интеллект на уровне среднего пингвина. Однако Альфред всегда готов поделиться своим аппетитом на вкусную рыбу с друзьями и помочь им в непредвиденных ситуациях.",
+      "characteristics": {
+        "health": 10,
+        "defense": 2,
+        "damage": 3,
+        "move": 1,
+        "range": "Ближняя"
+      },
+      "rarity": "common"
+    },
+    {
+      "title": "Mirel",
+      "icon": "/game/iconGame/magic.svg",
+      "image": "/game/person/mirel.jpg",
+      "description": "Mirel – эпическая жрица, обладающая небывалой мудростью и священной силой. Ее урон и защита на высоком уровне, а ее здоровье значительно превышает средние показатели. Мирель призвана служить божеству и приносить исцеление и мир всему миру, поднимая молитвы и борясь за благо всех живых существ.",
+      "characteristics": {
+        "health": 12,
+        "defense": 8,
+        "damage": 8,
+        "move": 1,
+        "range": "Средняя"
+      },
+      "rarity": "epic"
+    },
+    {
+      "title": "Rexfire",
+      "icon": "/game/iconGame/sush.svg",
+      "image": "/game/person/rexfire.jpg",
+      "description": "Rexfire – эпический дракозавр с огненным дыханием и несравненной мощью. Его урон и защита на высочайшем уровне, а его здоровье значительно превышает средние показатели. Рекфайер способен сжигать все на своем пути, и его яростный огонь может разрушить любое препятствие.",
+      "characteristics": {
+        "health": 16,
+        "defense": 5,
+        "damage": 10,
+        "move": 3,
+        "range": "Средняя"
+      },
+      "rarity": "epic"
+    },
+    {
+      "title": "Isei Tenshin",
+      "icon": "/game/iconGame/history.svg",
+      "image": "/game/person/tenshin.jpg",
+      "description": "Isei Tenshin –  мастер скрытности и боевых искусств. Его урон и защита на среднем уровне, и его здоровье также скромное. Исей Тещин виртуозно владеет навыками ниндзя и всегда готов использовать свои умения для выполнения миссий и соблюдения своего кода чести.",
+      "characteristics": {
+        "health": 10,
+        "defense": 5,
+        "damage": 3,
+        "move": 4,
+        "range": "Ближняя"
+      },
+      "rarity": "rare"
+    },
+    {
+      "title": "Zoltan",
+      "icon": "/game/iconGame/tehno.svg",
+      "image": "/game/person/zoltan.jpg",
+      "description": "Zoltan – редкий зомби робот, сочетающий в себе недосягаемую силу и неуязвимость. Его урон и защита выше средних показателей, и его здоровье надежно защищает его от уронов. Zoltan – создание будущего, обладающее невероятной стойкостью и агрессией в битвах на постапокалиптических аренах.",
+      "characteristics": {
+        "health": 20,
+        "defense": 5,
+        "damage": 5,
+        "move": 2,
+        "range": "Ближняя"
+      },
+      "rarity": "rare"
+    },
+    {
+      "title": "Gelidus",
+      "icon": "/game/iconGame/sush.svg",
+      "image": "/game/person/gelidus.jpg",
+      "description": "Gelidus – редкий ледяной гигант, обладающий силой мороза и непроницаемой броней. Его урон и защита выше средних показателей, и его здоровье обеспечивает ему долгую жизнь во льдах. Gelidus – существо холодных местностей, которое приносит холод и мороз своим врагам, защищая свои земли от вторжений.",
+      "characteristics": {
+        "health": 10,
+        "defense": 10,
+        "damage": 3,
+        "move": 4,
+        "range": "Средняя"
+      },
+      "rarity": "rare"
+    },
+    {
+      "title": "Quantum Quasar",
+      "icon": "/game/iconGame/tehno.svg",
+      "image": "/game/person/quasar.jpg",
+      "description": "Quantum Quasar – эпический робот, обладающий невероятной вычислительной мощью и технологической броней. Его урон и защита на высоком уровне, и его здоровье значительно превышает средние показатели. Quantum Quasar – создание будущего, способное манипулировать квантовыми явлениями и сражаться с врагами, используя передовые технологии.",
+      "characteristics": {
+        "health": 20,
+        "defense": 5,
+        "damage": 10,
+        "move": 3,
+        "range": "Ближняя"
+      },
+      "rarity": "epic"
+    },
+    {
+      "title": "Silvanus",
+      "icon": "/game/iconGame/tehno.svg",
+      "image": "/game/person/silvanus.jpg",
+      "description": "Silvanus – редкий лесной бот, созданный для охраны и заботы о природе. Его урон и защита на уровне выше среднего, и его здоровье позволяет ему выдерживать долгие битвы. Silvanus – страж лесов и природы, борющийся за сохранение зеленых уголков мира и защищая их от разрушения.",
+      "characteristics": {
+        "health": 15,
+        "defense": 5,
+        "damage": 10,
+        "move": 3,
+        "range": "Средняя"
+      },
+      "rarity": "rare"
+    },
+    {
+      "title": "Shahriar Al-Shahra",
+      "icon": "/game/iconGame/magic.svg",
+      "image": "/game/person/shahra.jpg",
+      "description": "Shahriar Al-Shahra – редкий владыка пустыни, правящий песчаными дюнами с неослабевающей властью. Его урон и защита на уровне выше среднего, и его здоровье дает ему преимущество в пустынных схватках. Shahriar Al-Shahra – мудрый лидер, обеспечивающий процветание своего народа и уверенный в своей способности управлять сложными пустынными территориями.",
+      "characteristics": {
+        "health": 10,
+        "defense": 3,
+        "damage": 10,
+        "move": 2,
+        "range": "Дальная"
+      },
+      "rarity": "rare"
+    },
+    {
+      "title": "Larry",
+      "icon": "/game/iconGame/magic.svg",
+      "image": "/game/person/larry.jpg",
+      "description": "Larry – обычный скелет-копейщик, стоявший на страже мрачных катакомб и подземелий. Его характеристики скромные, и он остается верным своей доле в мире мертвых.",
+      "characteristics": {
+        "health": 4,
+        "defense": 3,
+        "damage": 7,
+        "move": 1,
+        "range": "Ближняя"
+      },
+      "rarity": "common"
+    },
+    {
+      "title": "Maxwell",
+      "icon": "/game/iconGame/magic.svg",
+      "image": "/game/person/maxwell.jpg",
+      "description": "Maxwell – эпический вселенщик, обладающий невероятной мощью и знанием множества миров. Его урон и защита на высочайшем уровне, и его здоровье делает его непобедимым. Maxwell исследует разные вселенные, управляет ими и борется за сохранение баланса между мирами и измерениями, противостоя всяким опасностям, которые могут угрожать мирам мультивселенной.",
+      "characteristics": {
+        "health": 30,
+        "defense": 5,
+        "damage": 7,
+        "move": 5,
+        "range": "Дальная"
+      },
+      "rarity": "epic"
+    },
+    {
+      "title": "Stalton",
+      "icon": "/game/iconGame/tehno.svg",
+      "image": "/game/person/stalton.jpg",
+      "description": "Shalton – легендарный стальной гигант, неуязвимый и могучий. Его урон и защита на высочайшем уровне, и его здоровье обеспечивает ему долгую и непобедимую жизнь. Shalton – символ силы и мощи в мире гигантов, и он всегда готов защищать свой народ и свои земли от внешних угроз.",
+      "characteristics": {
+        "health": 40,
+        "defense": 13,
+        "damage": 13,
+        "move": 3,
+        "range": "Средняя"
+      },
+      "rarity": "legendary"
+    },
+    {
+      "title": "Blazekin",
+      "icon": "/game/iconGame/sush.svg",
+      "image": "/game/person/blazekin.jpg",
+      "description": "Blazekin - маленький огненый дракон, родившийся в вулкане. Он обучился управлять огнем и стал защитником своего места обитания. Благодаря своим огненным способностям и мудрости, он стал легендой и посланником вулкана, предостерегая его от угроз.",
+      "characteristics": {
+        "health": 10,
+        "defense": 5,
+        "damage": 2,
+        "move": 2,
+        "range": "Средняя"
+      },
+      "rarity": "common"
+    }
+    ,
+    {
+      "title": "Drocile",
+      "icon": "/game/iconGame/sush.svg",
+      "image": "/game/person/drocile.jpg",
+      "description": "Drocile - эпический крокодил с уникальной способностью менять время и воздействовать на ход событий. Его урон и защита на высоком уровне, и его здоровье дает ему преимущество в битвах. Drocile – обладатель силы времени, способный изменять прошлое и будущее в своих интересах и сражаться с врагами в разных временных плоскостях.",
+      "characteristics": {
+        "health": 25,
+        "defense": 10,
+        "damage": 3,
+        "move": 5,
+        "range":"Средняя"
+      },
+      "rarity": "epic"
+    },
+    {
+      "title": "Nazrul",
+      "icon": "/game/iconGame/magic.svg",
+      "image": "/game/person/nazrul.jpg",
+      "description": "Nazrul родился в суровом оркском племени, но с детства проявлял удивительное влечение к магии. Он упорно изучал заклинания и стал магом, несмотря на воинственную природу своего племени. Его сила и магическое мастерство сделали его уважаемым среди своих собратьев.",
+      "characteristics": {
+        "health": 10,
+        "defense": 3,
+        "damage": 10,
+        "move": 2,
+        "range":"Средняя"
+      },
+      "rarity": "rare"
+    },
+    {
+      "title": "Kage",
+      "icon": "/game/iconGame/history.svg",
+      "image": "/game/person/kage.jpg",
+      "description": "Kage - опытный ниндзя, мастер скрытности и убийства, служащий тайному клану. Он обучен убийственным искусствам ниндзюцу и известен своей силой и точностью в убийствах.",
+      "characteristics": {
+        "health": 10,
+        "defense": 3,
+        "damage": 4,
+        "move": 3,
+        "range":"Ближняя"
+      },
+      "rarity": "common"
+    }
+  ]
+}

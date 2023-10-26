@@ -46,7 +46,12 @@ border-radius: 20px;
 .dostCon{
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
     justify-content: center;
+    text-decoration: none;
 }
 .dostImg{
     width: 300px;
@@ -54,6 +59,16 @@ border-radius: 20px;
     object-fit: cover;
     border: 5px solid #423F46;
     border-radius: 50px;
+}
+.bTitle{
+    font-size: 26px;
+    color: #423F46;
+}
+.boxImg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 @media screen and (max-width:700px){
     .navbar{
@@ -65,5 +80,9 @@ border-radius: 20px;
     }
     .headerTxt{
         font-size: 12px;
+    }
+    .boxImg{
+        width: 200px;
+        height: 200px;
     }
 }

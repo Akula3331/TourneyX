@@ -1,0 +1,189 @@
+$common-color: #cccccc;
+$rare-color: #1e90ff;
+$epic-color: #9400d3;
+$legendary-color: #ffa500;
+.card {
+  margin: 0 auto;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 5px;
+  border: 5px solid #1e90ff; // Цвет границы по умолчанию
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #1e90ff; // Цвет треугольника по умолчанию
+    border-right: 100px solid transparent;
+  }
+
+  .txtCon {
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    background-color: #1e90ff; // Цвет фона по умолчанию
+  }
+
+  .rectangle {
+    position: absolute;
+    right: 300px;
+    bottom: 0;
+    border-bottom: 60px solid #1e90ff; // Цвет полоски по умолчанию
+    border-left: 50px solid transparent;
+    height: 0;
+    width: 50px;
+  }
+
+  .img {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  .back {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    gap: 50px;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    opacity: 0;
+    transition: opacity 10s;
+  }
+
+  &.flipped {
+    transform: rotateY(180deg);
+  }
+
+  &.flipped .back {
+    opacity: 1;
+    transition: opacity 0.1s;
+  }
+}
+.name {
+  font-family: "Electrolize", sans-serif;
+  font-size: 24px;
+}
+.text {
+  font-family: "Lora";
+  font-size: 18px;
+}
+.blockItem {
+  font-size: 24px;
+}
+.block {
+  display: flex;
+}
+// .common {
+//   border-color: $common-color;
+//   .triangle {
+//     border-top-color: $common-color;
+//   }
+//   .txtCon {
+//     background-color: $common-color;
+//   }
+//   .rectangle {
+//     border-bottom-color: $common-color;
+//   }
+// }
+
+// .rare-card {
+//   border-color: $rare-color;
+//   .triangle {
+//     border-top-color: $rare-color;
+//   }
+//   .txtCon {
+//     background-color: $rare-color;
+//   }
+//   .rectangle {
+//     border-bottom-color: $rare-color;
+//   }
+// }
+
+// .epic-card {
+//   border-color: $epic-color;
+//   .triangle {
+//     border-top-color: $epic-color;
+//   }
+//   .txtCon {
+//     background-color: $epic-color;
+//   }
+//   .rectangle {
+//     border-bottom-color: $epic-color;
+//   }
+// }
+
+// .legendary-card {
+//   border-color: $legendary-color;
+//   .triangle {
+//     border-top-color: $legendary-color;
+//   }
+//   .txtCon {
+//     background-color: $legendary-color;
+//   }
+//   .rectangle {
+//     border-bottom-color: $legendary-color;
+//   }
+// }
+@media screen and (max-width: 700px) {
+  .card {
+    width: 300px;
+    height: 300px;
+    .rectangle {
+      right: 180px;
+      border-bottom: 40px solid #1e90ff; // Цвет полоски по умолчанию
+      border-left: 30px solid transparent;
+      width: 30px;
+    }
+    .triangle {
+      border-top: 70px solid #1e90ff; // Цвет треугольника по умолчанию
+      border-right: 70px solid transparent;
+    }
+    .txtCon {
+      width: 180px;
+      height: 40px;
+    }
+    .img {
+      width: 40px;
+      height: 40px;
+    }
+    .back {
+      justify-content: space-around;
+    }
+  }
+  .name {
+    font-family: "Electrolize", sans-serif;
+    font-size: 16px;
+  }
+  .text {
+    font-family: "Lora";
+    font-size: 12px;
+  }
+  .blockItem {
+    font-size: 12px;
+  }
+  .block {
+    display: flex;
+    gap: 10px;
+  }
+}
