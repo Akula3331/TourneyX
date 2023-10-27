@@ -13,13 +13,13 @@ export default function TimeCon({ onFirstDateFromChild }) {
     {
       img: "/icons/timeIcon/dice.svg",
       dis: "Крестики-Нолики",
-      data: "30.10.2023",
+      data: "28.10.2023",
       pNum: ["Kalamburger", "CFKN", "Gorbatic", "Betito"],
     },
     {
       img: "/icons/timeIcon/dice.svg",
       dis: "Монополия",
-      data: "01.10.2023",
+      data: "30.10.2023",
     },
     // {
     //   img: "/icons/timeIcon/gamecontroller.svg",
