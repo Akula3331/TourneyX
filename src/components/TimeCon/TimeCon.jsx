@@ -4,7 +4,6 @@ import BlockTime from "../BlockTime/BlockTime";
 
 export default function TimeCon({ onFirstDateFromChild }) {
   const initialData = [
-    { img: "/icons/timeIcon/dice.svg", dis: "Лото", data: "26.10.2023" },
     {
       img: "/icons/timeIcon/gamecontroller.svg",
       dis: "Морской Бой",
