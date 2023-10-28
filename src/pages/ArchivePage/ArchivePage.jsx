@@ -13,6 +13,8 @@ export default function ArchivePage() {
     { name: "Ping Pong", date: "2023-10-23", firstPlace: 'Kalamburger', secondPlace: 'CFKN', thirdPlace: 'Gorbatic', fourthPlace: 'Betito' },
     { name: "Blocksudoku", date: "2023-10-24", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
     { name: "Завоевание фортуны", date: "2023-10-27", firstPlace: 'CFKN', secondPlace: 'Gorbatic', thirdPlace: 'Kalamburger', fourthPlace: 'Betito' },
+    { name: "Крестики-нолики", date: "2023-10-28", firstPlace: 'Kalamburger', secondPlace: 'Gorbatic', thirdPlace: 'Betito', fourthPlace: 'CFKN' },
+    { name: "Морской бой", date: "2023-10-28", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
    
   ];
 

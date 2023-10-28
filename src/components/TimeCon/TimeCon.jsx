@@ -4,40 +4,29 @@ import BlockTime from "../BlockTime/BlockTime";
 
 export default function TimeCon({ onFirstDateFromChild }) {
   const initialData = [
-    {
-      img: "/icons/timeIcon/gamecontroller.svg",
-      dis: "Морской Бой",
-      data: "28.10.2023",
-      pNum: ["Kalamburger", "Gorbatic", "Betito", "CFKN"],
-    },
-    {
-      img: "/icons/timeIcon/dice.svg",
-      dis: "Крестики-Нолики",
-      data: "28.10.2023",
-      pNum: ["Kalamburger", "CFKN", "Gorbatic", "Betito"],
-    },
+   
     {
       img: "/icons/timeIcon/dice.svg",
       dis: "Монополия",
       data: "30.10.2023",
     },
-    // {
-    //   img: "/icons/timeIcon/gamecontroller.svg",
-    //   dis: "Бильярд",
-    //   data: "03.10.2023",
-    //   pNum: ["Kalamburger", "Betito", "Gorbatic", "CFKN"],
-    // },
-    // {
-    //   img: "/icons/timeIcon/gamecontroller.svg",
-    //   dis: "Influence",
-    //   data: "05.10.2023",
-    // },
-    // {
-    //   img: "/icons/timeIcon/dice.svg",
-    //   dis: "Шахматы",
-    //   data: "07.10.2023",
-    //   pNum: ["Kalamburger", "Betito", "Gorbatic", "CFKN"],
-    // },
+    {
+      img: "/icons/timeIcon/gamecontroller.svg",
+      dis: "Бильярд",
+      data: "03.10.2023",
+      pNum: ["Kalamburger", "Betito", "Gorbatic", "CFKN"],
+    },
+    {
+      img: "/icons/timeIcon/gamecontroller.svg",
+      dis: "Influence",
+      data: "05.10.2023",
+    },
+    {
+      img: "/icons/timeIcon/dice.svg",
+      dis: "Шахматы",
+      data: "07.10.2023",
+      pNum: ["Kalamburger", "Betito", "Gorbatic", "CFKN"],
+    },
   ];
 
   // 'Gorbatic', 'Betito','CFKN','Kalamburger'
