@@ -24,19 +24,19 @@ $legendary-color: #ffa500;
 
   .txtCon {
     width: 250px;
-    height: 50px;
+    height: 49px;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    right: 0;
+    right: -1px;
     bottom: 0;
     background-color: #1e90ff; // Цвет фона по умолчанию
   }
 
   .rectangle {
     position: absolute;
-    right: 250px;
+    right: 248px;
     bottom: 0;
     border-bottom: 50px solid #1e90ff; // Цвет полоски по умолчанию
     border-left: 40px solid transparent;
@@ -175,7 +175,7 @@ $legendary-color: #ffa500;
     height: 200px;
 
     .rectangle {
-      right: 120px;
+      right: 119px;
       border-bottom: 30px solid #1e90ff; // Цвет полоски по умолчанию
       border-left: 20px solid transparent;
       width: 20px;
@@ -185,7 +185,7 @@ $legendary-color: #ffa500;
       border-right: 55px solid transparent;
     }
     .txtCon {
-      width: 120px;
+      width: 121px;
       height: 30px;
     }
     .cardImg {
