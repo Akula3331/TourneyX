@@ -53,7 +53,7 @@ export default function MainPage() {
       <p>Чекните новое обновление</p>
       </div>
       <div className={cls.main}>
-        <CountdownTimer targetDate={new Date("2023-11-14T00:00:00")} text='Отсчет до глобального турнира'/>
+        <CountdownTimer targetDate={new Date("2023-11-16T00:00:00")} text='Отсчет до глобального турнира'/>
       </div>
       <div className={cls.taimer}>
         <CountdownTimer targetDate={targetDate} name={gameName} text='Время доказать свои навыки: начало близко!' />

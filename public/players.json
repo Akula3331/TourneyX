@@ -2,10 +2,10 @@
     "players": [
       {
         "name": "Kalamburger",
-        "points":20,
+        "points":23,
         "megapoint":0,
         "games": [
-          { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Шахматы", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Шашки", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Blur", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Дурак", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
@@ -29,10 +29,10 @@
       },
       {
         "name": "Betito",
-        "points":15,
+        "points":16,
         "megapoint":0,
         "games": [
-          { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Шашки", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Blur", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Дурак", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 1 },
@@ -83,10 +83,10 @@
       },
       {
         "name": "CFKN",
-        "points":11 ,
+        "points":13 ,
         "megapoint":0,
         "games": [
-          { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Шахматы", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Шашки", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Blur", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Дурак", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 1, "fourthPlace": 0 },

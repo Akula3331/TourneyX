@@ -4,29 +4,28 @@ import BlockTime from "../BlockTime/BlockTime";
 
 export default function TimeCon({ onFirstDateFromChild }) {
   const initialData = [
-   
+    {
+      img: "/icons/timeIcon/dice.svg",
+      dis: "Шашки",
+      data: "10.11.2023",
+    },
     {
       img: "/icons/timeIcon/dice.svg",
       dis: "Монополия",
-      data: "09.11.2023",
+      data: "11.11.2023",
     },
     {
       img: "/icons/timeIcon/gamecontroller.svg",
       dis: "Бильярд",
-      data: "11.11.2023",
+      data: "13.11.2023",
       pNum: ["Kalamburger", "Betito", "Gorbatic", "CFKN"],
     },
     {
       img: "/icons/timeIcon/gamecontroller.svg",
       dis: "Rusted Warfare",
-      data: "13.11.2023",
-    },
-    {
-      img: "/icons/timeIcon/dice.svg",
-      dis: "Шахматы",
       data: "15.11.2023",
-      pNum: ["Kalamburger", "Betito", "Gorbatic", "CFKN"],
     },
+   
   ];
 
   // 'Gorbatic', 'Betito','CFKN','Kalamburger'
