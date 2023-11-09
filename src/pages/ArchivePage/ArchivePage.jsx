@@ -15,6 +15,7 @@ export default function ArchivePage() {
     { name: "Завоевание фортуны", date: "2023-10-27", firstPlace: 'CFKN', secondPlace: 'Gorbatic', thirdPlace: 'Kalamburger', fourthPlace: 'Betito' },
     { name: "Крестики-нолики", date: "2023-10-28", firstPlace: 'Kalamburger', secondPlace: 'Gorbatic', thirdPlace: 'Betito', fourthPlace: 'CFKN' },
     { name: "Морской бой", date: "2023-10-28", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
+    { name: "Шахматы", date: "2023-11-09", firstPlace: 'Kalamburger', secondPlace: 'CFKN', thirdPlace: 'Betito', fourthPlace: '' },
    
   ];
 
