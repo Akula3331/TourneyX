@@ -15,6 +15,11 @@ export default function TimeCon({ onFirstDateFromChild }) {
       img: "/icons/timeIcon/gamecontroller.svg",
       dis: "Гольф",
       data: "19.11.2023",
+    },
+    {
+      img: "/icons/timeIcon/dice.svg",
+      dis: "Монополия",
+      data: "22.11.2023",
     }
    
   ];
