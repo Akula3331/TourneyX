@@ -15,7 +15,6 @@ export default function TimeCon({ onFirstDateFromChild }) {
       img: "/icons/timeIcon/gamecontroller.svg",
       dis: "Гольф",
       data: "19.11.2023",
-      pNum: ["Kalamburger", "Betito", "Gorbatic", "CFKN"],
     }
    
   ];
