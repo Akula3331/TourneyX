@@ -2,7 +2,7 @@
     "players": [
       {
         "name": "Kalamburger",
-        "points":25,
+        "points":28,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -21,15 +21,16 @@
           { "name": "Тетрис", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Секретная игра", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Домино", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Rusted Warfare", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Морской Бой", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
-          { "name": "Blocksudoku", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
+          { "name": "Blocksudoku", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Golf Battle", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 }
         ]
       },
       {
         "name": "Betito",
-        "points":17,
+        "points":19,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
@@ -48,15 +49,16 @@
           { "name": "Тетрис", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Секретная игра", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Домино", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
           { "name": "Морской Бой", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
-          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 }
+          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Golf Battle", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 }
         ]
       },
       {
         "name": "Gorbatic",
-        "points":14,
+        "points":17,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -75,15 +77,16 @@
           { "name": "Тетрис", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Секретная игра", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Домино", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Морской Бой", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 }
+          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
+          { "name": "Golf Battle", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 }
         ]
       },
       {
         "name": "CFKN",
-        "points":16 ,
+        "points":20 ,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
@@ -102,10 +105,11 @@
           { "name": "Тетрис", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Секретная игра", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Домино", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Rusted Warfare", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Морской Бой", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
           { "name": "Завоевание Фортуны", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 }
+          { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
+          { "name": "Golf Battle", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
         ]
       }
     ]

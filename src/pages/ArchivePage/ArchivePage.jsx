@@ -17,6 +17,8 @@ export default function ArchivePage() {
     { name: "Морской бой", date: "2023-10-28", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
     { name: "Шахматы", date: "2023-11-09", firstPlace: 'Kalamburger', secondPlace: 'CFKN', thirdPlace: 'Betito', fourthPlace: '' },
     { name: "Бильярд", date: "2023-11-13", firstPlace: 'CFKN', secondPlace: 'Kalamburger', thirdPlace: 'Betito', fourthPlace: 'Gorbatic' },
+    { name: "Rusted Warfare", date: "2023-11-19", firstPlace: 'Kalamburger', secondPlace: 'Gorbatic', thirdPlace: 'CFKN', fourthPlace: 'Betito' },
+    { name: "Golf Battle", date: "2023-11-20", firstPlace: 'CFKN', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'Kalamburger' },
    
   ];
 

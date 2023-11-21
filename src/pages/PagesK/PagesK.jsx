@@ -1,6 +1,6 @@
 import React from 'react'
 import cls from './PagesK.module.scss'
-import GameList from './../../components/GameList/GameList';
+import GameList from '../../components/Profile/GameList/GameList';
 
 export default function PagesK() {
   return (

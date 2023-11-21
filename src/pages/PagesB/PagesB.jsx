@@ -1,6 +1,6 @@
 import React from 'react'
 import cls from './PagesB.module.scss'
-import GameList from './../../components/GameList/GameList';
+import GameList from '../../components/Profile/GameList/GameList';
 import Back from '../../components/Back/Back';
 
 export default function PagesB() {

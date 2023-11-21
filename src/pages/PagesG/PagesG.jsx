@@ -1,6 +1,6 @@
 import React from 'react'
 import cls from './PagesG.module.scss'
-import GameList from './../../components/GameList/GameList';
+import GameList from '../../components/Profile/GameList/GameList';
 
 export default function PagesG() {
   return (
