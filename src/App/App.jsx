@@ -12,13 +12,12 @@ import PagesG from './../pages/PagesG/PagesG';
 import PagesK from './../pages/PagesK/PagesK';
 import PagesB from './../pages/PagesB/PagesB';
 import BoxPage from './../pages/BoxPage/BoxPage';
-import GameList from "../components/Profile/GameList/GameList";
 
 function App() {
     return (
         <>
             <div className={cls.App}>
-                {/* <Routes>
+                 <Routes>
                     <Route path="b" element={<PagesB/>}/>
                     <Route path="k" element={<PagesK/>}/>
                     <Route path="g" element={<PagesG/>}/>
@@ -30,11 +29,9 @@ function App() {
                     <Route path="/rule" element={<RulesPages/>}/>
                     <Route path="/achiv" element={<AchievementsPage/>}/>
                     <Route path="/box" element={<BoxPage/>}/>
-                </Routes> */}
+                </Routes> 
                 
             </div>
-        <GameList playerName='Gorbatic'/>
-
         </>
     );
 }
