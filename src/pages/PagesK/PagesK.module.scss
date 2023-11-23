@@ -3,6 +3,7 @@
    flex-direction: column;
     margin: 40px 0;
     gap: 20px;
+    align-items: center;
 }
 .avaCon{
     width: 200px;
@@ -38,14 +39,13 @@
     font-weight: 400;
 }
 .titulCon{
-    border-radius: 10px;
-    padding: 5px;
-    background-color: #9A786F;
-    display: flex;
-    align-items: center;
-    p{
-        color: #faed26;
-    }
+    width: 500px;
+    height: 300px;
+//  padding: 30px;
+ background-image: url('../../../public/images/dostbg.svg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ border: 5px solid #5b5561;
 }
 .cup{
     width: 20px;

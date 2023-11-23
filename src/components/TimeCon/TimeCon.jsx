@@ -7,12 +7,18 @@ export default function TimeCon({ onFirstDateFromChild }) {
     {
       img: "/icons/timeIcon/gamecontroller.svg",
       dis: "Hide Online",
-      data: "25.11.2023",
+      data: "24.11.2023",
     },
     {
-      img: "/icons/timeIcon/dice.svg",
+      img: "/icons/timeIcon/gamecontroller.svg",
       dis: "Boom Squad",
-      data: "27.11.2023",
+      data: "26.11.2023",
+    },
+    {
+      img: "/icons/timeIcon/tick.svg",
+      dis: "Dr Driving",
+      data: "00.00.00",
+      pNum:['Gorbatic','CFKN','Betito','Kalamburger']
     }
    
   ];

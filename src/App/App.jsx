@@ -12,6 +12,7 @@ import PagesG from './../pages/PagesG/PagesG';
 import PagesK from './../pages/PagesK/PagesK';
 import PagesB from './../pages/PagesB/PagesB';
 import BoxPage from './../pages/BoxPage/BoxPage';
+import Achievements from "../components/Achievements/Achievements";
 
 function App() {
     return (
@@ -30,7 +31,6 @@ function App() {
                     <Route path="/achiv" element={<AchievementsPage/>}/>
                     <Route path="/box" element={<BoxPage/>}/>
                 </Routes> 
-                
             </div>
         </>
     );

@@ -152,23 +152,6 @@ export default function BoxRandom({ card }) {
               <img className={cls.cardBgImg} src={card?.image} alt="" />
             )}
           </div>
-          {/* <div className={cls["selected-card"]}>
-          {cardImgVisible && (
-              
-              <img className={cls.cardImg} src={card?.icon} alt="" /> 
-             
-            )}
-            {cardRarityVisible && (
-              <p className={`${cls.cardRarity} ${cls.fadeIn}`}>
-               <span className={cls.cardTit}>Редкость:</span>  {rarityTranslations[card?.rarity]}
-              </p>
-            )}
-            {cardTitleVisible && (
-              <p className={`${cls.cardTitle} ${cls.fadeIn}`}>
-                <span className={cls.cardTit}>Никнейм:</span> {card?.title}
-              </p>
-            )}
-          </div> */}
           {closeButtonVisible && (
             <button className={cls.btn} onClick={resetCard}>
               Закрыть

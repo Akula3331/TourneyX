@@ -2,19 +2,20 @@
 import React from 'react';
 import cls from './ModalGameList.module.scss';
 
-export default function ModalGameList({ gamesList, closeModal }) {
+export default function ModalGameList({ isOpen, onClose, place, gameData }) {
+  if (!isOpen || !gameData) {
+    return null;
+  }
+  console.log("gameData:", gameData);
+
   return (
     <div className={cls.modal}>
-    <div className={cls.modalContent}>
-      <span className={cls.close} onClick={closeModal}>&times;</span>
-      <h2>Список игр для {gamesList.name}</h2>
-      <ul>
-        <li>Первое место: {gamesList.firstPlace}</li>
-        <li>Второе место: {gamesList.secondPlace}</li>
-        <li>Третье место: {gamesList.thirdPlace}</li>
-        <li>Четвертое место: {gamesList.fourthPlace}</li>
-      </ul>
+      <div className={cls.modal_content}>
+        <span className={cls.close} onClick={onClose}>&times;</span>
+        <h2>{`${place} место - ${gameData[0].name}`}</h2>
+          <p>kjbaskdbkj</p>
+
+      </div>
     </div>
-  </div>
   );
 }
