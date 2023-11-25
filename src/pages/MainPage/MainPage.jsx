@@ -50,10 +50,11 @@ export default function MainPage() {
         </nav>
       </header>
       <div className={cls.newsItem}>
-      <p>Чекните новое обновление</p>
+        <img className={cls.newsImg} src="/icons/timeIcon/tick.svg" alt="" />
+      <p>Этот значок озночает,что победивший в этой игре получает попытку выбить персонажа</p>
       </div>
       <div className={cls.main}>
-        <CountdownTimer targetDate={new Date("2023-11-22T00:00:00")} text='Отсчет до глобального турнира'/>
+        <CountdownTimer targetDate={new Date("2023-11-30T00:00:00")} text='Отсчет до глобального турнира'/>
       </div>
       <div className={cls.taimer}>
         <CountdownTimer targetDate={targetDate} name={gameName} text='Время доказать свои навыки: начало близко!' />

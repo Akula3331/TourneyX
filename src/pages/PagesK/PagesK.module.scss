@@ -41,24 +41,23 @@
 .titulCon{
     width: 500px;
     height: 300px;
-//  padding: 30px;
+ padding: 30px;
  background-image: url('../../../public/images/dostbg.svg');
  background-repeat: no-repeat;
  background-size: cover;
- border: 5px solid #5b5561;
 }
 .cup{
     width: 20px;
     height: 20px;
 }
-.listGame{
-    background-color: #5b5561;
-    padding: 20px;
-    max-width: 1280px;
-    margin: 0 auto;
-    border-radius: 5px;
+@media screen and (max-width:700px){
+    .titulCon{
+        width: 300px;
+        height: 180px;
+        padding: 20px;
+    }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:495px) {
     .conHeader{
         gap: 5px;
     }
@@ -81,8 +80,8 @@
         height: 15px;
     }
     .titulCon{
-        p{
-            font-size: 12px;
-        }
+        width: 200px;
+        height: 120px;
+        padding: 10px;
     }
 }

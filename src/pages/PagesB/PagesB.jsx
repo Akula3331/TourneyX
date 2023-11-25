@@ -19,10 +19,7 @@ export default function PagesB() {
             </div>
             
         </div>
-        <div className={cls.titulCon}>
-            <img className={cls.cup} src="/icons/winnercup.svg" alt="" />
-            <p>Мои Достижения</p>
-        </div>
+        
         </div>
         <div className={cls.listGame}>
         <GameList playerName='Betito'/>

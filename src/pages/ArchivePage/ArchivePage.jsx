@@ -1,31 +1,23 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import cls from "./ArchivePage.module.scss";
-import SeasonGamesList from './../../components/SeasonGamesList/SeasonGamesList';
+import SeasonGamesList from "./../../components/SeasonGamesList/SeasonGamesList";
 import Back from "../../components/Back/Back";
+import axios from "axios";
 
 export default function ArchivePage() {
-  const gamesSeason = [
-    { name: "Покер", date: "2023-10-12", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
-    { name: "Дурак", date: "2023-10-14", firstPlace: 'Gorbatic', secondPlace: 'Betito', thirdPlace: 'CFKN', fourthPlace: 'Kalamburger' },
-    { name: "Шашки", date: "2023-10-16", firstPlace: 'Betito', secondPlace: 'CFKN', thirdPlace: 'Kalamburger', fourthPlace: 'Gorbatic' },
-    { name: "Дурак", date: "2023-10-18", firstPlace: 'Kalamburger', secondPlace: 'CFKN', thirdPlace: 'Gorbatic', fourthPlace: 'Betito' },
-    { name: "Uno", date: "2023-10-20", firstPlace: 'Betito', secondPlace: 'Gorbatic', thirdPlace: 'CFKN', fourthPlace: 'Kalamburger' },
-    { name: "Ping Pong", date: "2023-10-23", firstPlace: 'Kalamburger', secondPlace: 'CFKN', thirdPlace: 'Gorbatic', fourthPlace: 'Betito' },
-    { name: "Blocksudoku", date: "2023-10-24", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
-    { name: "Завоевание фортуны", date: "2023-10-27", firstPlace: 'CFKN', secondPlace: 'Gorbatic', thirdPlace: 'Kalamburger', fourthPlace: 'Betito' },
-    { name: "Крестики-нолики", date: "2023-10-28", firstPlace: 'Kalamburger', secondPlace: 'Gorbatic', thirdPlace: 'Betito', fourthPlace: 'CFKN' },
-    { name: "Морской бой", date: "2023-10-28", firstPlace: 'Kalamburger', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'CFKN' },
-    { name: "Шахматы", date: "2023-11-09", firstPlace: 'Kalamburger', secondPlace: 'CFKN', thirdPlace: 'Betito', fourthPlace: '' },
-    { name: "Бильярд", date: "2023-11-13", firstPlace: 'CFKN', secondPlace: 'Kalamburger', thirdPlace: 'Betito', fourthPlace: 'Gorbatic' },
-    { name: "Rusted Warfare", date: "2023-11-19", firstPlace: 'Kalamburger', secondPlace: 'Gorbatic', thirdPlace: 'CFKN', fourthPlace: 'Betito' },
-    { name: "Golf Battle", date: "2023-11-20", firstPlace: 'CFKN', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'Kalamburger' },
-    { name: "Герои Г.", date: "2023-11-20", firstPlace: 'CFKN', secondPlace: 'Betito', thirdPlace: 'Gorbatic', fourthPlace: 'Kalamburger' },
-   
-  ];
+  const [gamesSeason, setGamesSeason] = useState([]);
+  useEffect(() => {
+    axios
+      .get("/archiv.json")
+      .then((response) => {
+        setGamesSeason(response.data); // Используйте setGamesSeason вместо setPlayers
+      })
+      .catch((error) => {
+        console.error("Ошибка при загрузке данных:", error);
+      });
+  }, []);
 
-  const gamesAll = [
-    
-  ];
+  const gamesAll = [];
 
   const [search, setSearch] = useState("");
   const [sortBy, setSortBy] = useState("date");
@@ -61,7 +53,7 @@ export default function ArchivePage() {
 
   return (
     <div className={cls.container}>
-         <Back/>
+      <Back />
       <h2 className={cls.title}>Архив игр</h2>
       <div className={cls.con}>
         <input
@@ -86,7 +78,9 @@ export default function ArchivePage() {
               Сортировать по названию
             </option>
           </select>
-          <button onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}>
+          <button
+            onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}
+          >
             {sortOrder === "asc" ? "▼" : "▲"}
           </button>
         </div>

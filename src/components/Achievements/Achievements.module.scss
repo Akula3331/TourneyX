@@ -1,3 +1,9 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .modal_overlay {
   position: fixed;
   top: 0;
@@ -27,9 +33,9 @@
 .modalImg {
   width: 200px;
 }
-.icon{
-  width: 200px;
-  height: 200px;
+.icon {
+  width: 70px;
+  height: 70px;
 }
 .close {
   width: 50px;
@@ -46,12 +52,22 @@
 }
 .txt {
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
   width: 400px;
 }
-.lvl{
+.info {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+.lvlCon {
+  display: flex;
   font-size: 24px;
+  gap: 10px;
+}
+.lvl {
+  color: #fff;
 }
 .easy {
   border: 2px solid #00ff00;
@@ -76,4 +92,37 @@
 .legend {
   border: 2px solid #ffd700;
   color: #ffd700;
+}
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 28px;
+  }
+  .modalImg {
+    width: 150px;
+    height: 150px;
+  }
+  .icon{
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width:495px){
+  .txt{
+    width: 280px;
+    font-size: 18px;
+  }
+  .title{
+    font-size: 22px;
+  }
+  .info{
+    font-size: 16px;
+  }
+  .modalImg{
+    width: 120px;
+    height: 120px;
+  }
+  .icon{
+    width: 50px;
+    height: 50px;
+  }
 }

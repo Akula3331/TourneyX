@@ -29,14 +29,12 @@ export default function PagesK() {
           </div>
         </div>
       </div>
-      {/* <div className={cls.titulCon}> */}
-      {/* {achivData && achivData.achiv ? <Achievements achiv={achivData} /> : <p>Loading...</p>}
-       */}
-       {/* <Achievements achiv={[{ icon: "/icons/achiv/ten.png", name: "Щитовой Защитник", txt: "Не отдавать 1-е место 10 игр подряд", rary: "advanced" }]} /> */}
-
-
-
-      {/* </div> */}
+      <h1>Достижения</h1>
+      <div className={cls.titulCon}>
+        <Achievements
+          nick='Kalamburger'
+        />
+      </div>
       <div className={cls.listGame}>
         <GameList playerName="Kalamburger" />
       </div>
