@@ -26,7 +26,15 @@
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Blocksudoku", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Golf Battle", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
-          { "name": "Герои Г.", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 }
+          { "name": "Герои Г.", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
+          { "name": "Dr Driving", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
+          { "name": "Dr 1010", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr 2048", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Pair", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Jump", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Unblock", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Color", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Link", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
         ],
         "achiv": [
           {
@@ -41,7 +49,7 @@
       },
       {
         "name": "Betito",
-        "points":40,
+        "points":43,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
@@ -65,12 +73,20 @@
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
           { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Golf Battle", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Герои Г.", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 }
+          { "name": "Герои Г.", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Driving", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr 1010", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr 2048", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Pair", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Jump", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Unblock", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Color", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Link", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
         ]
       },
       {
         "name": "Gorbatic",
-        "points":32,
+        "points":33,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
@@ -94,12 +110,20 @@
           { "name": "Завоевание Фортуны", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
           { "name": "Golf Battle", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
-          { "name": "Герои Г.", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 }
+          { "name": "Герои Г.", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
+          { "name": "Dr Driving", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 1, "fourthPlace": 0 },
+          { "name": "Dr 1010", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr 2048", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Pair", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Jump", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Unblock", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Color", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Link", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
         ]
       },
       {
         "name": "CFKN",
-        "points":40 ,
+        "points":42 ,
         "megapoint":0,
         "games": [
           { "name": "Шахматы", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
@@ -123,7 +147,15 @@
           { "name": "Завоевание Фортуны", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
           { "name": "Blocksudoku", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 1 },
           { "name": "Golf Battle", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
-          { "name": "Герои Г.", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
+          { "name": "Герои Г.", "firstPlace": 1, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Driving", "firstPlace": 0, "secondPlace": 1, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr 1010", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr 2048", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Pair", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Jump", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Unblock", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Color", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 },
+          { "name": "Dr Link", "firstPlace": 0, "secondPlace": 0, "thirdPlace": 0, "fourthPlace": 0 }
         ]
       }
     ]

@@ -148,8 +148,8 @@
       "name": "Dr Driving",
       "rules": [
         "Игра Dr. Driving в формате 1 на 1 предполагает соревнование между двумя игроками. ",
-        " Оба игрока выбирают тот же тип автомобиля для соревнования.",
-        "Победителем считается тот игрок, который первым достигнет финиша или выполнит задание быстрее своего соперника."
+        "Оба игрока выбирают тот же тип автомобиля для соревнования.",
+        "Игра до 5 побед."
       ],
       "game": "https://play.google.com/store/apps/details?id=com.ansangha.drdriving"
     },
@@ -170,6 +170,62 @@
         "Победитель - игрок с наибольшим общим количеством баллов после завершения всех трех раундов"
       ],
       "game": "https://play.google.com/store/apps/details?id=games.magicboard.hg"
+    },
+    {
+      "name": "Dr 2048",
+      "rules": [
+        "Игра в формате 1 на 1 предполагает соревнование между двумя игроками. ",
+        "Игра до 2 побед"
+      ],
+      "game": "https://play.google.com/store/apps/details?id=com.ansangha.dr2048"
+    },
+    {
+      "name": "Dr 1010",
+      "rules": [
+        "Игра в формате 1 на 1 предполагает соревнование между двумя игроками. ",
+        "Игра до 3 побед"
+      ],
+      "game": "https://play.google.com/store/apps/details?id=com.ansangha.dr1010"
+    },
+    {
+      "name": "Dr Jump",
+      "rules": [
+        "Игра в формате 1 на 1 предполагает соревнование между двумя игроками. ",
+        "Игра до 2 побед"
+      ],
+      "game": "https://play.google.com/store/apps/details?id=com.ansangha.drjump"
+    },
+    {
+      "name": "Dr Unblock",
+      "rules": [
+        "Игра в формате 1 на 1 предполагает соревнование между двумя игроками. ",
+        "Игра до 3 побед"
+      ],
+      "game": "https://play.google.com/store/apps/details?id=com.ansangha.drunblock"
+    },
+    {
+      "name": "Dr Pair",
+      "rules": [
+        "Игра в формате 1 на 1 предполагает соревнование между двумя игроками. ",
+        "Игра до 5 побед"
+      ],
+      "game": "https://play.google.com/store/apps/details?id=com.ansangha.drmemory"
+    },
+    {
+      "name": "Dr Color",
+      "rules": [
+        "Игра в формате 1 на 1 предполагает соревнование между двумя игроками. ",
+        "Игра до 3 побед"
+      ],
+      "game": "https://play.google.com/store/apps/details?id=com.ansangha.drcolor"
+    },
+    {
+      "name": "Dr Link",
+      "rules": [
+        "Игра в формате 1 на 1 предполагает соревнование между двумя игроками. ",
+        "Игра до 3 побед"
+      ],
+      "game": "https://play.google.com/store/apps/details?id=com.ansangha.drlink"
     }
   ]
 }
